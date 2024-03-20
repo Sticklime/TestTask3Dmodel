@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c69e6a328874a8a8792ceb787b61ad5, type: 3}
+  m_Name: ENDescriptionComponents 1
+  m_EditorClassIdentifier: 
+  languageType: 2
+  descriptionComponents:
+  - switchComponentsType: 1
+    nameComponents: Top Cover
+    description: The upper cover is a protective casing that covers the internal
+      components of the electrical switch, providing insulation and safety.
+  - switchComponentsType: 2
+    nameComponents: Screws
+    description: Screws are used to secure various parts of the electrical switch
+      together, ensuring structural integrity and stability.
+  - switchComponentsType: 3
+    nameComponents: Clamps
+    description: ' Clamps are used to hold wires or cables securely in place within
+      the switch, preventing movement or disconnection.'
+  - switchComponentsType: 4
+    nameComponents: Rivets
+    description: Rivets are fasteners used to permanently join or secure components
+      of the electrical switch together, providing a sturdy and durable connection.
+  - switchComponentsType: 5
+    nameComponents: Arc Chamber
+    description: The arc extinguishing chamber is a component designed to safely
+      extinguish electrical arcs that may occur during switching operations, reducing
+      the risk of fire or damage.
+  - switchComponentsType: 6
+    nameComponents: Rear Terminals
+    description: Rear terminals are connection points located at the back of the
+      switch for attaching wires or cables.
+  - switchComponentsType: 7
+    nameComponents: Rear Terminals
+    description: Front terminals are connection points located at the front of the
+      switch for attaching wires or cables.
+  - switchComponentsType: 8
+    nameComponents: Button
+    description: The button is a mechanism used to manually operate the switch, either
+      for turning it on/off or for activating specific functions.
+  - switchComponentsType: 9
+    nameComponents: Power Button
+    description: The power button is a specific type of button used to turn the switch
+      on or off.
+  - switchComponentsType: 10
+    nameComponents: Indicator Button
+    description: ' The indicator button is a button that, when pressed, provides
+      a visual indication of the switch''s status or operation.'
+  - switchComponentsType: 11
+    nameComponents: Connector
+    description: A connector is a device used to join electrical circuits together,
+      allowing for the transfer of electricity between different components or devices.
+  - switchComponentsType: 12
+    nameComponents: Cap Divider
+    description: The divider cover is a protective cover that separates and insulates
+      different sections or components within the switch.
+  - switchComponentsType: 13
+    nameComponents: Bottom Cover
+    description: The lower cover is a protective casing that covers the bottom portion
+      of the switch, providing additional insulation and protection.
+  - switchComponentsType: 14
+    nameComponents: Relay
+    description: ' A relay is an electrically operated switch that allows a low-power
+      signal to control a high-power circuit, enabling automation or remote control
+      of electrical systems.'
+  - switchComponentsType: 15
+    nameComponents: Realy Unit
+    description: The relay block is a housing or enclosure that contains multiple
+      relays, organizing and protecting them within the switch assembly.
+  - switchComponentsType: 16
+    nameComponents: Transformer
+    description: The transformer and wiring are components responsible for transforming
+      voltage levels and distributing electricity within the switch, ensuring proper
+      functioning and operation.
