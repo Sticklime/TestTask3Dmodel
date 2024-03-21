@@ -15,7 +15,7 @@ namespace CodeBase.Services
                 .FirstOrDefault(x => x.languageType == languageType);
         }
 
-        public DescriptionComponent GetDescriptionOfLanguage(SwitchComponentsType componentsType) =>
+        public DescriptionComponent GetDescriptionOfType(SwitchComponentsType componentsType) =>
             _descriptionComponents.descriptionComponents
                 .FirstOrDefault(x => x.switchComponentsType == componentsType);
     }

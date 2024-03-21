@@ -36,12 +36,12 @@ namespace CodeBase.UI.Button
         private void Start()
         {
             _spriteButton = _buttonImage.sprite;
-            _nameText.text = _staticData.GetDescriptionOfLanguage(_switchComponentsType).nameComponents;
+            _nameText.text = _staticData.GetDescriptionOfType(_switchComponentsType).nameComponents;
         }
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            _descriptionCanvas.ShowInfo(_staticData.GetDescriptionOfLanguage(_switchComponentsType));
+            _descriptionCanvas.ShowInfo(_staticData.GetDescriptionOfType(_switchComponentsType));
             _switchModel.ShowOutlineComponent(_switchComponentsType);
             _switchModelView.ShowComponent(_switchComponentsType);
         }
